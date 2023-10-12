@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Baskerville:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+div.navbar div {
+    margin: 5px;
+}
+
+.navbar {
+    border: 1px solid #559177;
+    background-color: #559177;
+    height: 70px;
+    position:absolute;
+    top:0;
+    width:100%;
+    
+}
+
+#home {
+    background-color: #a78268;
+    margin-right: 20px;
+}
+
+#home a {
+    color: white;
+    position: right;
+}
+
+#gallery {
+    background-color: #a78268;
+    margin-right: 20px;
+}
+
+#gallery a {
+    color: white;
+    background-color: #a78268;
+}
+
+.links {
+    border: 1px solid #c5e384;
+    display: inline;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.links:hover {
+    opacity: 1;
+    transition: .4s;
+    font-size:medium;
+    padding: 6px;
+
+}
+
+#linksgroup {
+    text-align: right;
+    float: right;
+    margin-top: 25px;
+}
+
+.links a {
+    text-decoration:double;
+}
+
+#logo {
+    width:50px;
+    height:50px;
+    float: left;
+    border-radius: 50%
+}
+
+.footer {
+    background-color: #559177;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+#copyright {
+    float: left;
+    position: fixed;
+    bottom: 19px;
+    left: 20px;
+    color: white;
+    font-style: italic;
+    font-family: 'Nunito', serif;
+    font-size: smaller;
+}
+
+#socials img {
+    width: 10px;
+}
+
+#instagram, #github, #facebook {
+    float: right;
+    opacity: 0.7;
+    transition: .4s;
+    margin-right: 10px;
+}
+
+#instagram {
+    margin-right: 10px;
+}
+
+#facebookb:hover, #instagram:hover, #github:hover {
+    opacity: 1;
+    transition: .4s;
+}
+
+.banner {
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+}
+
+.bannertext {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.bannertext h1 {
+    color: rgb(233, 195, 146);
+    text-shadow: -2px 2px 0 #8b6a3e, 1px 1px 0 #8b6a3e, 1px -1px 0 #8b6a3e, -1px -1px 0 #8b6a3e;
+    font-size: 4em;
+    text-align: left;
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 25px;
+}
+
+.bannertext h1 span {
+    font-family: 'Libre Baskerville', serif;
+    color: #9fa659;
+    text-shadow: -2px 2px 0 #4b4c2c, 1px 1px 0 #4b4c2c, 1px -1px 0 #4b4c2c, -1px -1px 0 #4b4c2c;
+}
+
+.bannertext p {
+    margin-top: 10px;
+    color: rgb(174, 184, 236);
+    font-size: larger;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: -1px 1px 0 #292853, 1px 1px 0 #292853, 1px -1px 0 #292853, -1px -1px 0 #292853;
+}
+
+.bannertext a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #d3b166;
+    padding: 10px;
+    font-family: 'Archivo Black', sans-serif;
+    margin-top: 1em;
+    font-weight: bold;
+    transition: .4s;
+    text-transform: uppercase;
+}
+
+#bannerlink:hover {
+    transition: .4s;
+    font-size: large;
+    padding: 6px;
+}
+
+.gallery {
+    margin: 10px;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-family: 'Dela Gothic One', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.pics img {
+    margin: 4px;
+    border: 5px solid #a78268;
+    border-radius: 10px;
+    width: 11%;
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.pics img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
